@@ -530,7 +530,10 @@ header {
 
 /** ==== CONTACT ==== **/
 .contact {
-    background-image: url('./src/assets/images/contact-bg.png');
+    background-image: url('https://i.ibb.co/H7n33TN/contact-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .contact-header {
