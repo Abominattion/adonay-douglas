@@ -530,7 +530,7 @@ header {
 
 /** ==== CONTACT ==== **/
 .contact {
-    background-image: url(./../images/—Pngtree—irregular\ graphic\ fluid\ gradient_4612734.png);
+    background-image: url('./src/assets/images/contact-bg.png');
 }
 
 .contact-header {
