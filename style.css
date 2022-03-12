@@ -530,10 +530,7 @@ header {
 
 /** ==== CONTACT ==== **/
 .contact {
-    background-image: url('https://i.ibb.co/H7n33TN/contact-bg.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url(./../images/—Pngtree—irregular\ graphic\ fluid\ gradient_4612734.png);
 }
 
 .contact-header {
