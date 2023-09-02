@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- ==== TITLE ==== -->
     <title>Adonay Douglas | Desenvolvedor Web</title>
 
@@ -14,488 +13,591 @@
     <meta itemprop="image" content="images/share.jpg" />
 
     <!-- ==== FAVICON ==== -->
-    <link rel="shortcut icon" href="images/icons/logo.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="images/icons/logo.png"
+      type="image/x-icon"
+    />
 
     <!-- ==== CSS ==== -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
 
     <!-- ==== PRETTY CHECKBOX ==== -->
-    <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css">
+    <link
+      rel="stylesheet"
+      href=" https://cdn.jsdelivr.net/npm/pretty-checkbox@3.0/dist/pretty-checkbox.min.css"
+    />
 
     <!-- ==== PRETTY CHECKBOX RESET ==== -->
     <style>
-        :root {
-            --swiper-theme-color: #7C6FEE !important;
-        }
+      :root {
+        --swiper-theme-color: #7c6fee !important;
+      }
 
-        .pretty .state label:after,
-        .pretty .state label:before {
-            top: calc((0% - (100% - 0.9em)) - 1%);
-        }
+      .pretty .state label:after,
+      .pretty .state label:before {
+        top: calc((0% - (100% - 0.9em)) - 1%);
+      }
 
-        .pretty.p-switch.p-fill input:checked~.state:before {
-            border-color: #7C6FEE;
-            background-color: #7C6FEE !important;
-        }
+      .pretty.p-switch.p-fill input:checked ~ .state:before {
+        border-color: #7c6fee;
+        background-color: #7c6fee !important;
+      }
     </style>
 
     <!-- ==== FONTAWESOME ==== -->
-    <script src="https://kit.fontawesome.com/208bc104ce.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/208bc104ce.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- ==== JQUERY ==== -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
     <!-- ==== SWIPER JS ==== -->
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-</head>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+  </head>
 
-<body id="body">
-
-
+  <body id="body">
     <div id="overlayer"></div>
     <div class="loader">
-        <div class="spinner-border" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
     </div>
 
     <!-- ==== HEADER ==== -->
     <header class="header">
-        <div class="logo">
-            <a href="/" title="Adonay Douglas"><img src="images/icons/logo.png" alt="Adonay Douglas">
-                <h1>Adonay Douglas</h1>
-            </a>
+      <div class="logo">
+        <a href="/" title="Adonay Douglas"
+          ><img src="images/icons/logo.png" alt="Adonay Douglas" />
+          <h1>Adonay Dougla</h1>
+        </a>
+      </div>
+
+      <div class="navbar" id="nav">
+        <div class="header-links">
+          <ul>
+            <li><a class="active" href="#home" title="Home">Home</a></li>
+            <li><a href="#sobre" title="Sobre">Sobre</a></li>
+            <li><a href="#portfólio" title="Portfólio">Portfólio</a></li>
+            <li><a href="#contato" id="Contato" title="Contato">Contato</a></li>
+          </ul>
         </div>
 
-        <div class="navbar" id="nav">
-            <div class="header-links">
-                <ul>
-                    <li><a class="active" href="#home" title="Home">Home</a></li>
-                    <li><a href="#sobre" title="Sobre">Sobre</a></li>
-                    <li><a href="#portfólio" title="Portfólio">Portfólio</a></li>
-                    <li><a href="#contato" id="Contato" title="Contato">Contato</a></li>
-                </ul>
+        <div class="social-medias">
+          <div class="pretty p-switch p-fill">
+            <input type="checkbox" id="darkmod" />
+            <div class="state">
+              <label class="darkmode-btn">DarkMode</label>
             </div>
+          </div>
 
-            <div class="social-medias">
-                <div class="pretty p-switch p-fill">
-                    <input type="checkbox" id="darkmod" />
-                    <div class="state">
-                        <label class="darkmode-btn">DarkMode</label>
-                    </div>
-                </div>
-
-                <a href="https://www.facebook.com/adonay.douglas.7/" title="Facebook de Adonay Douglas"><i
-                        class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/donay_douglas/" title="instagram de Adonay Douglas"><i
-                        class="fab fa-instagram"></i></a>
-                <a href="https://github.com/Abominattion" title="GitHub de Adonay Douglas"><i
-                        class="fab fa-github"></i></a>
-                <a href="https://codepen.io/abominattion" title="CodePen de Adonay Douglas"><i
-                        class="fab fa-codepen"></i></a>
-            </div>
+          <a
+            href="https://www.linkedin.com/in/adonay-douglas-2095291ab/"
+            title="Facebook de Adonay Douglas"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a
+            href="https://github.com/Abominattion"
+            title="GitHub de Adonay Douglas"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://codepen.io/abominattion"
+            title="CodePen de Adonay Douglas"
+            ><i class="fab fa-codepen"></i
+          ></a>
         </div>
+      </div>
 
-        <button class="btn-header-mobile" id="btn-mobile">
-            <span class="hamburger"></span>
-        </button>
+      <button class="btn-header-mobile" id="btn-mobile">
+        <span class="hamburger"></span>
+      </button>
     </header>
 
     <!-- ==== HERO ==== -->
     <section class="hero-top" id="home">
-        <div class="dev-hero">
-            <div class="hero-avatar-content">
-                <div class="hero-avatar">
-                    <img src="images/adonay-avatar.jpg" alt="">
-                </div>
-            </div>
-            <div class="hero-description">
-                <h2 id="hero-description">Full Stack Web Developer</h2>
-                <p>Sou desenvolvedor front-end e back-end em Andradas, MG. Tenho uma paixão séria por efeitos de
-                    interface do usuário, animações e criação de experiências de usuário intuitivas e dinâmicas.
-                    Vamos fazer algo especial.</p>
-                <a href="#sobre">Me conheça</a>
-            </div>
+      <div class="dev-hero">
+        <div class="hero-avatar-content">
+          <div class="hero-avatar">
+            <img
+              src="https://avatars.githubusercontent.com/u/68573705?v=4"
+              alt=""
+            />
+          </div>
         </div>
+        <div class="hero-description">
+          <h2 id="hero-description">Full Stack Web Developer</h2>
+          <p>
+            Sou desenvolvedor front-end e back-end. Tenho uma paixão séria por
+            efeitos de interface do usuário, animações e criação de experiências
+            de usuário intuitivas e dinâmicas. Vamos fazer algo especial.
+          </p>
+          <a href="#sobre">Me conheça</a>
+        </div>
+      </div>
 
-        <div class="imgBx">
-            <img src="images/undraw_programming_re_kg9v.svg" alt="">
-        </div>
+      <div class="imgBx">
+        <img src="images/undraw_programming_re_kg9v.svg" alt="" />
+      </div>
     </section>
 
     <!-- ==== ABOUT ==== -->
     <section class="about container" id="sobre">
-        <div class="about-header">
-            <h2>Sobre</h2>
+      <div class="about-header">
+        <h2>Sobre</h2>
+      </div>
+
+      <div class="about-svg"></div>
+
+      <div class="about-content">
+        <article>
+          <div class="about-img">
+            <img src="images/icons/fast.png" alt="" />
+          </div>
+          <h2>Rápido</h2>
+          <p>Tempos de carregamento rápidos e interação sem atrasos.</p>
+          <div class="article-footer"></div>
+        </article>
+
+        <article>
+          <div class="about-img">
+            <img src="images/icons/responsive.png" alt="" />
+          </div>
+          <h2>Responsivo</h2>
+          <p>
+            Meus layouts funcionarão em qualquer dispositivo, grande ou pequeno.
+          </p>
+          <div class="article-footer"></div>
+        </article>
+
+        <article>
+          <div class="about-img">
+            <img src="images/icons/intuitive.png" alt="" />
+          </div>
+          <h2>Intuitivo</h2>
+          <p>
+            Forte preferência por UX/UI. Intuitivo, moderno e fácil de usar.
+          </p>
+          <div class="article-footer"></div>
+        </article>
+
+        <article>
+          <div class="about-img">
+            <img src="images/icons/dynamic.png" alt="" />
+          </div>
+          <h2>Dinâmico</h2>
+          <p>Os sites não precisam ser estáticos, adoro dar vida às páginas.</p>
+          <div class="article-footer"></div>
+        </article>
+      </div>
+
+      <div class="about-skills">
+        <div class="about-skills-grid">
+          <aside class="skills-left">
+            <img
+              src="https://avatars.githubusercontent.com/u/68573705?v=4"
+              alt=""
+              style="border-radius: 50%"
+            />
+            <h2>Quem é Adonay Douglas?</h2>
+            <p>
+              Sou desenvolvedor front-end e back-end. Tenho uma paixão séria por
+              efeitos de interface do usuário, animações e criação de
+              experiências de usuário intuitivas e dinâmicas. <br />
+              <span>Vamos fazer algo especial.</span>
+            </p>
+          </aside>
+
+          <aside class="skill-img">
+            <img src="images/undraw_static_assets_rpm6.svg" alt="" />
+          </aside>
         </div>
 
-        <div class="about-svg">
-
+        <div style="text-align: center">
+          <h2 style="color: #555555">Principais Stacks</h2>
         </div>
 
-        <div class="about-content">
-            <article>
-                <div class="about-img">
-                    <img src="images/icons/fast.png" alt="">
-                </div>
-                <h2>Rápido</h2>
-                <p>Tempos de carregamento rápidos e interação sem atrasos.</p>
-                <div class="article-footer"></div>
-            </article>
+        <aside class="skills">
+          <div class="dev-skill-content">
+            <span class="linguage"> PHP </span>
+            <div class="dev-skill"></div>
+            <span class="skill"> 90% </span>
+          </div>
 
-            <article>
-                <div class="about-img">
-                    <img src="images/icons/responsive.png" alt="">
-                </div>
-                <h2>Responsivo</h2>
-                <p>Meus layouts funcionarão em qualquer dispositivo, grande ou pequeno.</p>
-                <div class="article-footer"></div>
-            </article>
+          <div class="dev-skill-content">
+            <span class="linguage"> Laravel </span>
+            <div class="dev-skill"></div>
+            <span class="skill"> 90% </span>
+          </div>
 
-            <article>
-                <div class="about-img">
-                    <img src="images/icons/intuitive.png" alt="">
-                </div>
-                <h2>Intuitivo</h2>
-                <p>Forte preferência por UX/UI. Intuitivo, moderno e fácil de usar.</p>
-                <div class="article-footer"></div>
-            </article>
+          <div class="dev-skill-content">
+            <span class="linguage"> Vue.js </span>
+            <div class="dev-skill"></div>
+            <span class="skill"> 80% </span>
+          </div>
 
-            <article>
-                <div class="about-img">
-                    <img src="images/icons/dynamic.png" alt="">
-                </div>
-                <h2>Dinâmico</h2>
-                <p>Os sites não precisam ser estáticos, adoro dar vida às páginas.</p>
-                <div class="article-footer"></div>
-            </article>
-        </div>
+          <div class="dev-skill-content">
+            <span class="linguage"> React </span>
+            <div class="dev-skill"></div>
+            <span class="skill"> 80% </span>
+          </div>
 
-        <div class="about-skills">
-
-            <div class="about-skills-grid">
-                <aside class="skills-left">
-                    <img src="images/avatar-poligono.png" alt="">
-                    <h2>Quem é Adonay Douglas?</h2>
-                    <p>Sou desenvolvedor front-end e back-end em Andradas, MG.
-                        Tenho uma paixão séria por efeitos de interface do usuário, animações e criação de experiências
-                        de
-                        usuário intuitivas e dinâmicas. <br>
-                        <span>Vamos fazer algo especial.</span></p>
-                </aside>
-
-                <aside class="skill-img">
-                    <img src="images/undraw_static_assets_rpm6.svg" alt="">
-                </aside>
-            </div>
-
-            <aside class="skills">
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        HTML
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        90%
-                    </span>
-                </div>
-
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        CSS
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        90%
-                    </span>
-                </div>
-
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        JS
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        60%
-                    </span>
-                </div>
-
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        PHP
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        80%
-                    </span>
-                </div>
-
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        MySQL
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        50%
-                    </span>
-                </div>
-
-                <div class="dev-skill-content">
-                    <span class="linguage">
-                        Photoshop
-                    </span>
-                    <div class="dev-skill"></div>
-                    <span class="skill">
-                        30%
-                    </span>
-                </div>
-
-            </aside>
-
-        </div>
-        <div class="about-skills-footer"></div>
+          <div class="logos-container">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png"
+              alt="PHP Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/1969px-Laravel.svg.png"
+              alt="Laravel Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+              alt="React Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/2367px-Vue.js_Logo_2.svg.png"
+              alt="Vue.js Logo"
+            />
+            <img
+              src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"
+              alt="Next.js Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Node.js_logo.svg/2560px-Node.js_logo.svg.png"
+              alt="Node.js Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/2048px-Typescript_logo_2020.svg.png"
+              alt="TypeScript Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+              alt="AWS Logo"
+            />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/1200px-Tux.svg.png"
+              alt="Linux Logo"
+            />
+          </div>
+        </aside>
+      </div>
+      <div class="about-skills-footer"></div>
     </section>
 
     <!-- ==== PORTFOLIO ==== -->
     <section class="portifolio" id="portfólio">
-        <div class="about-header">
-            <h2>Portfólio</h2>
-        </div>
+      <div class="about-header">
+        <h2>Portfólio</h2>
+      </div>
 
-        <div class="portifolio-content container">
+      <div class="portifolio-content container">
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img
+              src="images/portifolio/Cole-Facebook.png"
+              alt="Clone do Facebook"
+            />
+          </div>
+          <div class="portifolio-body">
+            <h2>Clone do Facebook - #Estudo - In DEV</h2>
+            <p>
+              Clone realizado para aprimorar minhas habilidades de Front End.
+            </p>
+            <a
+              href="https://abominattion.github.io/Clone-Facebook/"
+              target="_blank"
+              title="Clone do Facebook"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Cole-Facebook.png" alt="Clone do Facebook">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Clone do Facebook - #Estudo - In DEV</h2>
-                    <p>Clone realizado para aprimorar minhas habilidades de Front End.</p>
-                    <a href="https://abominattion.github.io/Windows-10/" title="Clone do Facebook"><i
-                            class="fas fa-door-open"></i> Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/Win-10.png" alt="Clone do Windows 10" />
+          </div>
+          <div class="portifolio-body">
+            <h2>Clone do Windows 10 - #Estudo - In DEV</h2>
+            <p>
+              Clone realizado para aprimorar minhas habilidades de Front End.
+            </p>
+            <a
+              href="https://abominattion.github.io/Windows-10/"
+              target="_blank"
+              title="Clone do Windows 10"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Win-10.png" alt="Clone do Windows 10">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Clone do Windows 10 - #Estudo - In DEV</h2>
-                    <p>Clone realizado para aprimorar minhas habilidades de Front End.</p>
-                    <a href="https://abominattion.github.io/Windows-10/" title="Clone do Windows 10"><i
-                            class="fas fa-door-open"></i> Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img
+              src="images/portifolio/Prof-Vin-1.png"
+              alt="Professor Vinícius"
+            />
+          </div>
+          <div class="portifolio-body">
+            <h2>Professor Vinícius</h2>
+            <p>
+              Site desenvolvido para o vereador e professor Vinícius Teixeira.
+            </p>
+            <a
+              href="https://professorviniciusteixeira.com.br/"
+              target="_blank"
+              title="Professor Vinícius"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Prof-Vin-1.png" alt="Professor Vinícius">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Professor Vinícius</h2>
-                    <p>Site desenvolvido para o vereador e professor Vinícius Teixeira.</p>
-                    <a href="https://professorviniciusteixeira.com.br/" title="Professor Vinícius"><i
-                            class="fas fa-door-open"></i> Visitar
-                        Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img
+              src="images/portifolio/Imo-Mig-1.png"
+              alt="Imobiliária Migliorini"
+            />
+          </div>
+          <div class="portifolio-body">
+            <h2>Imobiliária Migliorini</h2>
+            <p>Site desenvolvido para a Imobiliária Migliorini.</p>
+            <a
+              href="https://www.imobiliariamigliorini.com.br/"
+              target="_blank"
+              title="Imobiliária Migliorini"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Imo-Mig-1.png" alt="Imobiliária Migliorini">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Imobiliária Migliorini</h2>
-                    <p>Site desenvolvido para a Imobiliária Migliorini.</p>
-                    <a href="https://www.imobiliariamigliorini.com.br/" title="Imobiliária Migliorini"><i
-                            class="fas fa-door-open"></i> Visitar
-                        Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/Voracce-1.png" alt="Banda Voracce" />
+          </div>
+          <div class="portifolio-body">
+            <h2>Banda Voracce</h2>
+            <p>Site desenvolvido para a banda do Sul de Minas, Voracce.</p>
+            <a
+              href="https://www.voracce.com.br/"
+              target="_blank"
+              title="Banda Voracce"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Voracce-1.png" alt="Banda Voracce">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Banda Voracce</h2>
-                    <p>Site desenvolvido para a banda do Sul de Minas, Voracce.</p>
-                    <a href="https://www.voracce.com.br/" title="Banda Voracce"><i class="fas fa-door-open"></i> Visitar
-                        Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/Zu-1.png" alt="Thiago Zu" />
+          </div>
+          <div class="portifolio-body">
+            <h2>Thiago Zu</h2>
+            <p>Site desenvolvido para o artista Mineiro Thiago Zu.</p>
+            <a
+              href="https://abominattion.github.io/thiago-zu/"
+              target="_blank"
+              title="Thiago Zu"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Zu-1.png" alt="Thiago Zu">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Thiago Zu</h2>
-                    <p>Site desenvolvido para o artista Mineiro Thiago Zu.</p>
-                    <a href="https://abominattion.github.io/thiago-zu/" title="Thiago Zu"><i
-                            class="fas fa-door-open"></i> Visitar
-                        Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img
+              src="images/portifolio/Adonay-1.png"
+              alt="Adonay - Site pessoal"
+            />
+          </div>
+          <div class="portifolio-body">
+            <h2>Adonay - Site pessoal</h2>
+            <p>Site desenvolvido para o músico mineiro Adonay.</p>
+            <a
+              href="https://abominattion.github.io/adonay-official-website/"
+              target="_blank"
+              title="Adonay - Site pessoal"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Adonay-1.png" alt="Adonay - Site pessoal">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Adonay - Site pessoal</h2>
-                    <p>Site desenvolvido para o músico mineiro Adonay.</p>
-                    <a href="https://abominattion.github.io/adonay-official-website/" title="Adonay - Site pessoal"><i
-                            class="fas fa-door-open"></i>
-                        Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/Glass-1.png" alt="Glassmorphism UI" />
+          </div>
+          <div class="portifolio-body">
+            <h2>Glassmorphism UI - #Estudo</h2>
+            <p>Site desenvolvido para estudar design moderno.</p>
+            <a
+              href="https://abominattion.github.io/Glassmorphism-Website-UI/"
+              target="_blank"
+              title="Glassmorphism UI"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Glass-1.png" alt="Glassmorphism UI">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Glassmorphism UI - #Estudo</h2>
-                    <p>Site desenvolvido para estudar design moderno.</p>
-                    <a href="https://abominattion.github.io/Glassmorphism-Website-UI/" title="Glassmorphism UI"><i
-                            class="fas fa-door-open"></i>
-                        Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/M-DM-1.png" alt="Modern DarkMode" />
+          </div>
+          <div class="portifolio-body">
+            <h2>Modern DarkMode - #Estudo</h2>
+            <p>Aplicando mono noturno em uma página.</p>
+            <a
+              href="https://abominattion.github.io/Modern-DarkMode/"
+              target="_blank"
+              title="Modern DarkMode"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
 
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/M-DM-1.png" alt="Modern DarkMode">
-                </div>
-                <div class="portifolio-body">
-                    <h2>Modern DarkMode - #Estudo</h2>
-                    <p>Aplicando mono noturno em uma página.</p>
-                    <a href="https://abominattion.github.io/Modern-DarkMode/" title="Modern DarkMode"><i
-                            class="fas fa-door-open"></i>
-                        Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
-
-            <!-- ==== SINGLE PORTFOLIO ==== -->
-            <article>
-                <div class="portifolio-image">
-                    <img src="images/portifolio/Tela-Login-1.png" alt="CyberMarket">
-                </div>
-                <div class="portifolio-body">
-                    <h2>CyberMarket - #Estudo</h2>
-                    <p>Criando tela de login baseado no Hotmart.</p>
-                    <a href="https://abominattion.github.io/CyberMarket/" title="CyberMarket"><i
-                            class="fas fa-door-open"></i>
-                        Visitar Website</a>
-                </div>
-                <div class="article-footer"></div>
-            </article>
-
-        </div>
+        <!-- ==== SINGLE PORTFOLIO ==== -->
+        <article>
+          <div class="portifolio-image">
+            <img src="images/portifolio/Tela-Login-1.png" alt="CyberMarket" />
+          </div>
+          <div class="portifolio-body">
+            <h2>CyberMarket - #Estudo</h2>
+            <p>Criando tela de login baseado no Hotmart.</p>
+            <a
+              href="https://abominattion.github.io/CyberMarket/"
+              target="_blank"
+              title="CyberMarket"
+              ><i class="fas fa-door-open"></i> Visitar Website</a
+            >
+          </div>
+          <div class="article-footer"></div>
+        </article>
+      </div>
     </section>
 
     <!-- ==== CONTACT ==== -->
     <section class="contact" id="contato">
-        <div class="blur">
-            <div class="container content">
-                <div class="contact-content">
-                    <div class="contact-grid">
-                        <aside class="content-left">
-                            <div class="hero-avatar" id="contact-avatar">
-                                <img src="images/adonay-avatar.jpg" alt="Adonay Douglas Avatar" id="contact-photo">
-                            </div>
-                        </aside>
-
-                        <aside class="content-right">
-                            <div class="contact-header">
-                                <h2>Contato</h2>
-                                <p>Veja como entrar em contato comigo:</p> <br>
-                            </div>
-
-                            <div class="contacts">
-
-                                <div class="contact-item">
-                                    <i class="fab fa-facebook-f"></i><a
-                                        href="https://www.facebook.com/adonay.douglas.7/"
-                                        target="_blank">/adonay.douglas.7</a> <br><br>
-                                </div>
-
-                                <div class="contact-item">
-                                    <i class="fab fa-instagram"></i><a href="https://www.instagram.com/donay_douglas/"
-                                        target="_blank">/@donay_douglas/</a> <br><br>
-                                </div>
-
-                                <div class="contact-item">
-                                    <i class="fab fa-google-plus-g"></i><a
-                                        href="mailto:adonaypowermetal@gmail.com">adonaypowermetal@gmail.com</a> <br><br>
-                                </div>
-
-                                <div class="contact-item">
-                                    <i class="fab fa-whatsapp"></i><a
-                                        href="https://web.whatsapp.com/send?phone=5535991540754" target="_blank">(35)
-                                        99154-0754</a> <br><br>
-                                </div>
-                            </div>
-                        </aside>
-                    </div>
+      <div class="blur">
+        <div class="container content">
+          <div class="contact-content">
+            <div class="contact-grid">
+              <aside class="content-left">
+                <div class="hero-avatar" id="contact-avatar">
+                  <img
+                    src="https://avatars.githubusercontent.com/u/68573705?v=4"
+                    alt="Adonay Douglas Avatar"
+                    id="contact-photo"
+                  />
                 </div>
-                <div class="article-footer"></div>
+              </aside>
+
+              <aside class="content-right">
+                <div class="contact-header">
+                  <h2>Contato</h2>
+                  <p>Veja como entrar em contato comigo:</p>
+                  <br />
+                </div>
+
+                <div class="contacts">
+                  <div class="contact-item">
+                    <i class="fa-brands fa-linkedin-in"></i
+                    ><a
+                      href="https://www.linkedin.com/in/adonay-douglas-2095291ab/"
+                      title="Facebook de Adonay Douglas"
+                      >LinkedIn</a
+                    >
+                    <br /><br />
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fab fa-google-plus-g"></i
+                    ><a href="mailto:adonay.douglas.profissional@gmail.com"
+                      >adonay.douglas.profissional@gmail.com</a
+                    >
+                    <br /><br />
+                  </div>
+
+                  <div class="contact-item">
+                    <i class="fab fa-whatsapp"></i
+                    ><a
+                      href="https://web.whatsapp.com/send?phone=5535991540754"
+                      target="_blank"
+                      >(35) 9 8444-0400</a
+                    >
+                    <br /><br />
+                  </div>
+                </div>
+              </aside>
             </div>
+          </div>
+          <div class="article-footer"></div>
         </div>
+      </div>
     </section>
 
     <!-- ==== FOOTER ==== -->
     <footer>
-        <div class="copyright">
-            <p><small>
-                    Copyright &copy;<script>
-                        document.write(new Date().getFullYear());
-                    </script> Todos os direitos reservados <strong><a href="https://www.facebook.com/adonay.douglas.7/"
-                            target="_blank"><strong>Adonay
-                                Douglas</strong></a></strong> <i class="icon-heart text-danger" aria-hidden="true"></i>
-                </small></p>
-        </div>
+      <div class="copyright">
+        <p>
+          <small>
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Todos os direitos reservados
+            <strong
+              ><a
+                href="https://www.facebook.com/adonay.douglas.7/"
+                target="_blank"
+                ><strong>Adonay Douglas</strong></a
+              ></strong
+            >
+            <i class="icon-heart text-danger" aria-hidden="true"></i>
+          </small>
+        </p>
+      </div>
     </footer>
 
     <!-- ==== WRITE MACHINE ==== -->
     <script>
-        function typeWriter(elemento) {
-            const textoArray = elemento.innerHTML.split('');
-            elemento.innerHTML = '';
-            textoArray.forEach((letra, i) => {
-                setTimeout(() => elemento.innerHTML += letra, 75 * i);
-            });
-        }
+      function typeWriter(elemento) {
+        const textoArray = elemento.innerHTML.split("");
+        elemento.innerHTML = "";
+        textoArray.forEach((letra, i) => {
+          setTimeout(() => (elemento.innerHTML += letra), 75 * i);
+        });
+      }
 
-        const titulo = document.querySelector('#hero-description');
-        typeWriter(titulo);
-        setTimeout(() => typeWriter(titulo), 10000);
+      const titulo = document.querySelector("#hero-description");
+      typeWriter(titulo);
+      setTimeout(() => typeWriter(titulo), 10000);
     </script>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
     <script src="js/script.js"></script>
-</body>
-
+  </body>
 </html>
